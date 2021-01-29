@@ -1,0 +1,8 @@
+# excluir arquivos individuais 
+# apoio.lib
+
+# excluir usando mascaras
+# *.class
+
+#excluir pastas inteiras
+lib/ 
