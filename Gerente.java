@@ -2,7 +2,11 @@ public class Gerente extends Funcionario {
     
     private int nFuncionarios;
 
-    public Gerente(String nome){
+    public Gerente(String nome, double salario, int Funcionarios){
+        super(nome, salario); //chamada ao construtor da superclasse "Funcionario"
+        this.nFuncionarios = nFuncionarios;
+    }
+        public Gerente(String nome){
         super(nome); //chamada ao construtor da superclasse "Funcionario"
     }
 
@@ -11,7 +15,9 @@ public class Gerente extends Funcionario {
             return super.getDados() + " : " + nFuncionarios;
     }
     
-    //void Exibir(){
-      //  System.out.println(salario);
+   
+
+    private int getDados() {
+        return this.nFuncionarios = nFuncionarios;
     }
 }
